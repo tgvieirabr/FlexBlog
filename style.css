@@ -244,10 +244,10 @@ s.superinfo a {
 }
 .qualidade {
  max-width: 960px;
- margin: 60px;
+ margin: 60px auto;
  display: flex;
  flex-wrap: wrap;
-}
+ }
 .qualidade-item {
  flex: 1 1 300px;
  margin: 20px 10px;
@@ -330,6 +330,10 @@ s.superinfo a {
  cursor: pointer;
  border: 0px;
  padding: 15px 10px;
+ 
+}
+.newsletter-form button:hover {
+ color: #4d4d4e;
 }
 @media (max-width: 600px) {
  .newsletter-form button {
@@ -337,7 +341,7 @@ s.superinfo a {
  }
 }
 .footer {
- height: 200px;
+ height: 150px;
  display: flex;
  background: #2c70ff;
  align-items: center;
@@ -345,6 +349,6 @@ s.superinfo a {
 .footer p {
  flex: 1;
  text-align: center;
- font-size: 2.25em;
+ font-size: 1.5em;
  color: #122ab2;
 }

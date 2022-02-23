@@ -247,7 +247,7 @@ s.superinfo a {
  margin: 60px auto;
  display: flex;
  flex-wrap: wrap;
- }
+}
 .qualidade-item {
  flex: 1 1 300px;
  margin: 20px 10px;
@@ -330,7 +330,6 @@ s.superinfo a {
  cursor: pointer;
  border: 0px;
  padding: 15px 10px;
- 
 }
 .newsletter-form button:hover {
  color: #4d4d4e;
@@ -340,15 +339,49 @@ s.superinfo a {
   font-size: 1.5em;
  }
 }
+
 .footer {
- height: 150px;
+ padding: 60px;
  display: flex;
- background: #2c70ff;
+ flex-wrap: wrap;
  align-items: center;
+ background: #2c70ff;
 }
-.footer p {
+
+.footer-item {
  flex: 1;
- text-align: center;
- font-size: 1.5em;
- color: #122ab2;
+ padding: 20px;
+ margin: 10px;
+ min-width: 260px;
+ border: 3px solid white;
 }
+
+.footer-item ul {
+ max-width: 300px;
+ margin: 20px auto;
+ font-size: 1.25em;
+ font-style: italic;
+ color: white;
+}
+.footer-item li {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ margin-bottom: 15px;
+}
+.footer-item li:hover {
+ color: #222;
+ }
+ .rodape {
+  height: 60px;
+  display: flex;
+  background: #122ab2;
+  align-items: center;
+ }
+
+.rodape p {
+  flex: 1;
+  text-align: center;
+  font-size: 1.5em;
+  color: white;
+ }
